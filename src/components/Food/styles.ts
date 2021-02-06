@@ -23,6 +23,7 @@ export const Container = styled.div<IFoodPlateProps>`
       `};
 
     img {
+      width: calc(1280px / 3 - 64px);
       pointer-events: none;
       user-select: none;
     }

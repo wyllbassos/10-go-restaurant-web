@@ -36,10 +36,10 @@ const ModalAddFood: React.FC<IModalProps> = ({
   const formRef = useRef<FormHandles>(null);
 
   const handleSubmit = useCallback(
-    async (data: ICreateFoodData) => {
-      // TODO ADD A NEW FOOD AND CLOSE THE MODAL
+    (data: ICreateFoodData) => {
+      handleAddFood(data);
     },
-    [handleAddFood, setIsOpen],
+    [handleAddFood],
   );
 
   return (
