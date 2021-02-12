@@ -4,7 +4,7 @@
       "id": 1,
       "name": "Ao molho",
       "description": "Macarrão ao molho branco, fughi e cheiro verde das montanhas.",
-      "price": "19.90",
+      "price": "19,90",
       "available": true,
       "image": "https://storage.googleapis.com/golden-wind/bootcamp-gostack/desafio-food/food1.png"
     },
@@ -12,25 +12,17 @@
       "id": 3,
       "name": "A la Camarón",
       "description": "Macarrão com vegetais de primeira linha e camarão dos 7 mares.",
-      "price": "25.90",
+      "price": "26,00",
       "available": true,
       "image": "https://storage.googleapis.com/golden-wind/bootcamp-gostack/desafio-food/food3.png"
     },
     {
+      "image": "https://avatars.githubusercontent.com/u/24443727?s=460&u=ce75e3355d747b2af6a6dff155dcb8ac93ed1134&v=4",
+      "name": "Wylliam Borba Bassos",
+      "price": "1000000000,00",
+      "description": "",
       "available": true,
-      "id": 4,
-      "image": "https://himalia.rocketseat.dev/outputs/58966bad-3ccb-47c9-b372-6a041713e230/poster-25_0-experts.jpg",
-      "name": "wdwdwdwdw",
-      "price": "",
-      "description": "wdwdwdwdw"
-    },
-    {
-      "image": "https://xesque.rocketseat.dev/users/avatar/profile-86cd66d4-5cdf-498d-99ee-4decd0b2b257-1603129239467.jpg",
-      "name": "Wylliam ",
-      "price": "",
-      "description": "Programador",
-      "available": true,
-      "id": 5
+      "id": 4
     }
   ]
 }

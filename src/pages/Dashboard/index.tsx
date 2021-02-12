@@ -13,7 +13,7 @@ import { FoodsContainer } from './styles';
 interface IFoodPlate {
   id: number;
   name: string;
-  image: string;
+  image_url: string;
   price: string;
   description: string;
   available: boolean;

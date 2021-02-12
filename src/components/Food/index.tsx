@@ -8,7 +8,7 @@ import { Container } from './styles';
 interface IFoodPlate {
   id: number;
   name: string;
-  image: string;
+  image_url: string;
   price: string;
   description: string;
   available: boolean;
@@ -44,7 +44,7 @@ const Food: React.FC<IProps> = ({
   return (
     <Container available={isAvailable}>
       <header>
-        <img src={food.image} alt={food.name} />
+        <img src={food.image_url} alt={food.name} />
       </header>
       <section className="body">
         <h2>{food.name}</h2>
